@@ -61,7 +61,7 @@ Moving over to `Support` you can give a URL and the support staff will check out
 ![image](https://user-images.githubusercontent.com/25315255/220461194-812e8c7e-aa57-4093-96a7-bc4578d3603a.png)
 
 **Step 5**<br/>
-Some things to try on the support page would be SSRF. This CTF however is not vulnerable to SSRF. The intended solution of to perform a CSRF attack to reset the support user's password and login as the support user. We can use the following CSRF PoC to reset the support user's password:
+Some things to try on the support page would be SSRF. This CTF however is not vulnerable to SSRF. The intended solution is to perform a CSRF attack to reset the support user's password and login as the support user. We can use the following CSRF PoC to reset the support user's password:
 ```
 <html>
     <body>
